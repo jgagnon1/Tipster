@@ -4,6 +4,24 @@ Tipster
 Tipster is a plugin that allows to display contextual tips anywhere in your application.
 Those tips are easy to integrate into your views and can be disabled by users.
 
+Installation
+==============
+
+1. Clone repository to vendor/plugins
+    git clone git@github.com:jgagnon1/Tipster.git vendor/plugins
+2. Create migration
+
+    class CreateUserTipHides < ActiveRecord::Migration
+      def self.up
+        Tipster::CreateUserTipHides.up
+      end
+
+      def self.down
+        Tipster::CreateUserTipHides.down
+      end
+    end
+
+3. Enjoy !
 
 Example
 =======
