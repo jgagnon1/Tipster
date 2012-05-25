@@ -9,8 +9,3 @@ require "tipster/routing"
 end
 
 ActionController::Base.helper TipsterHelper
-
-# Require migration files
-Dir.glob(File.join(File.dirname(__FILE__), "db", "migrate", "*")).each do |file|
-  require file
-end
