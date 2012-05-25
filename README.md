@@ -8,8 +8,22 @@ Installation
 ==============
 
 1. Clone repository to vendor/plugins
+
+<code>
     git clone git@github.com:jgagnon1/Tipster.git vendor/plugins/tipster
-2. Enjoy !
+</code>
+
+2. Include routes into your route.rb file
+
+<code>
+    ActionController::Routing::Routes.draw do |map|
+        ...
+        map.tipster
+        ...
+    end
+</code>
+
+3. Enjoy !
 
 Example
 =======
@@ -22,14 +36,16 @@ Example
 
 ### Generates:
 
-<div class="tip">
-    <div class="title">
-        <h3>Welcome to Tipster</h3>
-        <a href="/tipster/-736365685/hide" class="close"></a>
+<code>
+    <div class="tip">
+        <div class="title">
+            <h3>Welcome to Tipster</h3>
+            <a href="/tipster/-736365685/hide" class="close"></a>
+        </div>
+        <div class="content">
+            Portal is a user management gateway that allows you to manage your users and give them access to certain sections of Dakis services. 
+        </div>
     </div>
-    <div class="content">
-        Portal is a user management gateway that allows you to manage your users and give them access to certain sections of Dakis services. 
-    </div>
-</div>
+</code>
 
 Copyright (c) 2012 Jerome Gagnon, released under the MIT license
