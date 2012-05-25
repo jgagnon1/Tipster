@@ -17,9 +17,7 @@ Installation
 
 <code>
     ActionController::Routing::Routes.draw do |map|
-        ...
-        map.tipster
-        ...
+      map.tipster
     end
 </code>
 
