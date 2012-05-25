@@ -16,9 +16,9 @@ Installation
 2. Include routes into your route.rb file
 
 <code>
-    ActionController::Routing::Routes.draw do |map|
-      map.tipster
-    end
+ActionController::Routing::Routes.draw do |map| 
+  map.tipster
+end
 </code>
 
 3. Enjoy !
