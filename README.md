@@ -14,21 +14,21 @@ Installation
 
 1. Clone repository to vendor/plugins
 
-<code>
-    git clone git@github.com:jgagnon1/Tipster.git vendor/plugins/tipster
-</code>
+    <code>
+        git clone git@github.com:jgagnon1/Tipster.git vendor/plugins/tipster
+    </code>
 
 3. Run Tipster migrations
 
-<code>
-    rake db:migrate:tipster
-</code>
+    <code>
+        rake db:migrate:tipster
+    </code>
 
 2. Include routes into your route.rb file by adding this line;
 
-<code>
-    map.tipster
-</code>
+    <code>
+        map.tipster
+    </code>
 
 3. Enjoy !
 
