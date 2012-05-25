@@ -13,11 +13,11 @@ Installation
     git clone git@github.com:jgagnon1/Tipster.git vendor/plugins/tipster
 </code>
 
-2. Include routes into your route.rb file
+2. Include routes into your route.rb file by adding this line;
 
-    ActionController::Routing::Routes.draw do |map| 
-        map.tipster
-    end
+<code>
+    map.tipster
+</code>
 
 3. Enjoy !
 
