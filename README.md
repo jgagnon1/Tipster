@@ -8,7 +8,7 @@ Installation
 ==============
 
 1. Clone repository to vendor/plugins
-    git clone git@github.com:jgagnon1/Tipster.git vendor/plugins
+    git clone git@github.com:jgagnon1/Tipster.git vendor/plugins/tipster
 2. Enjoy !
 
 Example
