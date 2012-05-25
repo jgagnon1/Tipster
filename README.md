@@ -35,13 +35,13 @@ Installation
 Example
 =======
 
-## view.html.erb
+## Views
 
     <% tip "Welcome to Tipster" do %>
         Tipster is a plugin that allows to display contextual tips anywhere in your application.
     <% end %>
-
-### Generates:
+    
+Generates;
 
 <code>
     <div class="tip">
