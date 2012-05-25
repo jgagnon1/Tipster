@@ -9,19 +9,7 @@ Installation
 
 1. Clone repository to vendor/plugins
     git clone git@github.com:jgagnon1/Tipster.git vendor/plugins
-2. Create migration
-
-    class CreateUserTipHides < ActiveRecord::Migration
-      def self.up
-        Tipster::CreateUserTipHides.up
-      end
-
-      def self.down
-        Tipster::CreateUserTipHides.down
-      end
-    end
-
-3. Enjoy !
+2. Enjoy !
 
 Example
 =======
