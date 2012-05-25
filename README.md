@@ -2,7 +2,12 @@ Tipster
 ==============
 
 Tipster is a plugin that allows to display contextual tips anywhere in your application.
-Those tips are easy to integrate into your views and can be disabled by users.
+Those tips are easy to integrate into your views and can be hidden by users.
+
+Requirements
+==============
+
+1. User table with user_id foreign key to be connected to hidding tips (optionnal, but necessary to hide tips)
 
 Installation
 ==============
