@@ -40,10 +40,9 @@ Example
     <% tip "Welcome to Tipster" do %>
         Tipster is a plugin that allows to display contextual tips anywhere in your application.
     <% end %>
-    
+
 Generates;
 
-<code>
     <div class="tip">
         <div class="title">
             <h3>Welcome to Tipster</h3>
@@ -53,6 +52,5 @@ Generates;
             Portal is a user management gateway that allows you to manage your users and give them access to certain sections of Dakis services. 
         </div>
     </div>
-</code>
 
 Copyright (c) 2012 Jerome Gagnon, released under the MIT license
